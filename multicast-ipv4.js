@@ -60,7 +60,6 @@ function sendMessage()
 function setupSocket()
 {
 	let interfaces = os.networkInterfaces();
-	let platform = os.platform();
 	
 	console.log(`Listening on ${JSON.stringify(socket.address())}`);
 	
